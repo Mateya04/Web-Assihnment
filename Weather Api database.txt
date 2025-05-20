@@ -1,0 +1,8 @@
+CREATE DATABASE weather_db;
+USE weather_db;
+
+CREATE TABLE searches (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    city VARCHAR(100) NOT NULL,
+    searched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
